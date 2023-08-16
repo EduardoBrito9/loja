@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..60&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@900&display=swap');
+
+body {
+ background-color: rgb(34, 33, 33);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 900px;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.apresentacao span {
+    color: #c2c1c1;
+    font-family:'DM Sans', sans-serif; 
+}
+
+.emailsenha {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box-cadastro H1 {
+    margin: 0px;
+    font-family: 'DM Sans', sans-serif;
+    color: #f9f9f9;
+}
+
+.box-cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid rgb(113, 113, 113);
+    width: 450px;
+    height: 600px;
+    background-color: rgb(37, 34, 39);
+}
+
+.box-cadastro img {
+    width: 30px;
+}
+
+.box-cadastro input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    border: 0px;
+    border-style: none;
+    outline: 0;
+    color:rgb(0, 0, 0);
+}
+
+.crirec {
+    display: flex;
+    width: 340px;
+}
+
+/*.crirec a {
+    color: white;
+}*/
+
+.criar {
+    color: rgb(175, 146, 213);
+    font-family:'DM Sans', sans-serif;
+    text-decoration: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.criar:hover {
+    background: rgb(57, 56, 56);
+}
+
+.entrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 40px;
+    width: 100px;
+    padding-left: 133px;
+}
+
+.entrar button{
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+    border:0;
+    cursor: pointer;
+    background-color: rgb(98, 22, 165);
+    color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.entrar button:hover {
+    transform: scale(1.1);
+}

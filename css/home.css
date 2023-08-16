@@ -1,0 +1,59 @@
+/*ESSA PARTE ESTA EM DESENVOLVIMENTO, EU AINDA NEM COMECEI ELA DIREITO*/
+
+.navegacao {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    height: 200px;
+}
+
+.pesqcad {
+    display: flex;
+}
+
+
+.pesquisar {
+    border: 1px solid red;
+}
+
+.pesquisar input {
+    height: 40px;
+    width: 1000px;
+}
+
+.entre-carrinho {
+    display: flex;
+    gap: 15px;
+}
+
+.entre-carrinho img {
+    width: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
